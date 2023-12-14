@@ -24,14 +24,8 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
-:root {
-  --main-height: calc(100vh - 32px - 64px);
-}
-
-
-footer {
-  display: grid;
-  place-content: center;
-  height: 32px;
+.canvas {
+  border: 1.75px solid black;
+  border-radius: 4px;
 }
 </style>

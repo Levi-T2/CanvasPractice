@@ -17,6 +17,22 @@ const routes = [
     component: loadPage('ChartPage')
   },
   {
+    path: '/image',
+    name: 'Image',
+    component: loadPage('ImagePage')
+  },
+  {
+    path: '/scale',
+    name: 'Scale',
+    component: loadPage('ScalePage')
+  },
+  {
+    path: '/sprite',
+    name: 'Sprite',
+    component: loadPage('SpritePage')
+  },
+  // Currently Unused Routes Bellow.
+  {
     path: '/about',
     name: 'About',
     component: loadPage('AboutPage')

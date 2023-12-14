@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <section class="row bg-dark">
             <div class="col-12 text-center my-2 title-border">
-                <h1 class="text-light">Canvas Practice</h1>
+                <h2 class="text-light">Canvas Practice</h2>
             </div>
             <div class="col-12 mb-2">
                 <RouterLink :to="{ name: 'Home' }" class="mx-1">
@@ -11,6 +11,15 @@
                 <RouterLink :to="{ name: 'Chart' }" class="mx-1">
                     <a role="button" class="p-2 btn-page">Chart Page</a>
                 </RouterLink>
+                <RouterLink :to="{ name: 'Image' }" class="mx-1">
+                    <a role="button" class="p-2 btn-page">Image Page</a>
+                </RouterLink>
+                <RouterLink :to="{ name: 'Scale' }" class="mx-1">
+                    <a role="button" class="p-2 btn-page">Scale Page</a>
+                </RouterLink>
+                <RouterLink :to="{ name: 'Sprite' }" class="mx-1">
+                    <a role="button" class="p-2 btn-page">Sprite Page</a>
+                </RouterLink>
             </div>
         </section>
     </div>
@@ -18,8 +27,6 @@
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
 export default {
     setup() {
         return {}
