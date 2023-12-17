@@ -20,6 +20,12 @@
                 <RouterLink :to="{ name: 'Sprite' }" class="mx-1">
                     <a role="button" class="p-2 btn-page">Sprite Page</a>
                 </RouterLink>
+                <RouterLink :to="{ name: 'Branch' }" class="mx-1">
+                    <a role="button" class="p-2 btn-page">Branch Page</a>
+                </RouterLink>
+                <RouterLink :to="{ name: 'Level' }" class="mx-1">
+                    <a role="button" class="p-2 btn-page">Level Page</a>
+                </RouterLink>
             </div>
         </section>
     </div>

@@ -8,8 +8,9 @@
             </div>
         </section>
         <section class="row justify-content-center">
-            <div title="The Border Indicates Our Canvas" class="col-12 text-center">
-                <canvas class="canvas" id="SpriteCanvas" height="140" width="140"></canvas>
+            <div class="col-12 text-center">
+                <canvas title="The Border Indicates Our Canvas" class="canvas" id="SpriteCanvas" height="140"
+                    width="140"></canvas>
             </div>
         </section>
     </div>
@@ -35,8 +36,10 @@ export default {
                         cx.drawImage(img,
                             cycle * spriteW, 0, spriteW, spriteH,
                             0, 0, spriteW, spriteH);
+                        // NOTE The number thats being added to cycle and to the percent pretty much exactly how your sprite moves.
                         cycle = (cycle + 0.9255) % 2;
-                    }, 210);
+                        // The timing of set interval can also be used to effect the speed of your animation
+                    }, 240);
                 });
             }
         }

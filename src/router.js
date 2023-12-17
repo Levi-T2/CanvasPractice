@@ -31,6 +31,16 @@ const routes = [
     name: 'Sprite',
     component: loadPage('SpritePage')
   },
+  {
+    path: '/branch',
+    name: 'Branch',
+    component: loadPage('BranchPage')
+  },
+  {
+    path: '/level',
+    name: 'Level',
+    component: loadPage('LevelPage')
+  },
   // Currently Unused Routes Bellow.
   {
     path: '/about',
